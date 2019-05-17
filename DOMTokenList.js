@@ -6,7 +6,7 @@
 * 
 * Removes a list of text values from the DOMNodeList
 *
-* @param {arguments} a An Array of strings, separated by comma
+* @param {arguments} A list of strings, separated by comma
 * @return {undefined}
 */
 DOMTokenList.prototype.removeAll = function(){
