@@ -4,20 +4,16 @@
 
 /* removeAll
 * 
-* Removes an array of text values from the DOMNodeList
+* Removes a list of text values from the DOMNodeList
 *
-* @param {array} a An Array of strings, with one or more in each
+* @param {arguments} a An Array of strings, separated by comma
 * @return {undefined}
 */
-DOMTokenList.prototype.removeAll = function(a){
-  for(let b=0;b<a.length;b++){
-    /* allow for multiple class selectors per item */
-    let d=a[b].replace(/\s\s+/g, ' ').split(" ");
-                        
-    for(let c=0;
-    c<d.length;
-    c++){
-        this.remove(d[c]);
+DOMTokenList.prototype.removeAll = function(){
+    for(let a=0;
+    a<arguments.length;
+    a++){
+        this.remove(arguments[a]);
     }
-  }
+  
 }
