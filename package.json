@@ -1,6 +1,6 @@
 {
   "name": "dom_token_list-functions-remove_all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "DOMTokenList.js",
   "dependencies": {
