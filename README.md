@@ -1,5 +1,5 @@
 # removeAll
-Removes a list of values from  DOMTokenList
+Removes a array of values from  DOMTokenList
 
 <h2>Usage</h2>
 
